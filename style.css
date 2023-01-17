@@ -1,0 +1,54 @@
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0px 15px; 
+  border-radius: 2px;
+  left: 2rem;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: darkgray;
+  border-left: 3px solid red;
+  padding: 0 5px;
+} 
+#pants{
+    margin-left: 8rem;
+}
+#shirts{
+    position: absolute;
+    left: 10rem;
+}
+
+#shirts span {
+    position: absolute; 
+}
+
+#shirts span > a {
+  text-decoration: none;
+  font-size: 24px;
+  color: darkgray;
+  display: none;
+  /* visibility: hidden; */
+  position: absolute;
+  top: 2rem;
+  border:none;
+}
+
+#shirts:hover span a {
+  /* visibility: visible; */
+  display: block;
+}
+#casual {
+    top : 1rem ;
+
+ }
+#formal{
+    top :2.5rem 
+}
+#base{
+    top: 4rem;
+}
